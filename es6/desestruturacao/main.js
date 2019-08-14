@@ -6,6 +6,7 @@ const usuario = {
     estado: 'SP',
   }
 }
+
 console.log(usuario);
 
 
@@ -19,3 +20,7 @@ function mostraNome({ nome, idade}) {
   console.log(nome, idade);
 }
 mostraNome(usuario);
+
+
+
+const soma = (a = 3, b =6) => a + b;
